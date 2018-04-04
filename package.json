@@ -1,0 +1,21 @@
+{
+  "name": "snahp-spider",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "bin": {
+    "snahp": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "got": "^8.3.0",
+    "inquirer": "^5.2.0",
+    "jsdom": "^11.7.0"
+  },
+  "devDependencies": {
+    "pkg": "^4.3.1"
+  }
+}
